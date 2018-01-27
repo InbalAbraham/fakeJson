@@ -1,26 +1,69 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": 1,
+      "text": "Post 1",
+      "user": "Avi"
+    },
+    {
+      "id": 2,
+      "text": "Post 2",
+      "user": "Amit"
+    },
+    {
+      "id": 3,
+      "text": "Post 3",
+      "user": "Shir"
+    }
   ],
   "comments": {
-    "1" : [{"body": "1 1",
-	     "userID" : "name1111"},
-	    {"body": "1 2",
-	     "userID" : "name1"}],
-    "2" : [{"body": "2 1",
-	     "userID" : "name22"},
-	    {"body": "2 2",
-	     "userID" : "name2"}],
-    "3" : [{"body": "3 1",
-	     "userID" : "name333"},
-	    {"body": "3 2",
-	     "userID" : "name33"},
-          {"body": "3 3",
-	     "userID" : "name3"}]
+    "1": [
+      {
+        "body": "1 1",
+        "userID": "name1111"
+      },
+      {
+        "body": "1 2",
+        "userID": "name1"
+      }
+    ],
+    "2": [
+      {
+        "body": "2 1",
+        "userID": "name22"
+      },
+      {
+        "body": "2 2",
+        "userID": "name2"
+      }
+    ],
+    "3": [
+      {
+        "body": "3 1",
+        "userID": "name333"
+      },
+      {
+        "body": "3 2",
+        "userID": "name33"
+      },
+      {
+        "body": "3 3",
+        "userID": "name3"
+      }
+    ]
   },
-  "users": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Aviv"
+    },
+    {
+      "id": 2,
+      "name": "Amity"
+    },
+    {
+      "id": 3,
+      "name": "Inbal"
+    }
+  ]
 }
