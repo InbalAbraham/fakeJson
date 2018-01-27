@@ -5,18 +5,20 @@
     { "id": 3, "title": "Post 3" }
   ],
   "comments": {
-    "1" : [{"body": "some comment",
-	     "userID" : "name"},
-	    {"body": "some comment2",
+    "1" : [{"body": "1 1",
+	     "userID" : "name1111"},
+	    {"body": "1 2",
+	     "userID" : "name1"}],
+    "2" : [{"body": "2 1",
+	     "userID" : "name22"},
+	    {"body": "2 2",
 	     "userID" : "name2"}],
-    "2" : [{"body": "some comment",
-	     "userID" : "name"},
-	    {"body": "some comment2",
-	     "userID" : "name2"}],
-    "3" : [{"body": "some comment",
-	     "userID" : "name"},
-	    {"body": "some comment2",
-	     "userID" : "name2"}]
+    "3" : [{"body": "3 1",
+	     "userID" : "name333"},
+	    {"body": "3 2",
+	     "userID" : "name33"},
+          {"body": "3 3",
+	     "userID" : "name3"}]
   },
   "users": {
     "name": "typicode"
